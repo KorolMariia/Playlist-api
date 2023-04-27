@@ -13,7 +13,7 @@ server.listen(port, () => {
   console.log('JSON Server is running: ', port);
 });
 
-server.get('/songs', (req, res) => {
-  const songs = dbJSFile().songs;
-  res.json(songs);
+server.get('/db', (req, res) => {
+  const db = dbJSFile();
+  res.json(db);
 });
