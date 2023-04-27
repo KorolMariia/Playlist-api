@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 const path = require('path');
-const dbJSFile = require(path.join(__dirname, 'data', 'db'));
+const dbJSFile = require(path.join(__dirname, 'data', 'songs'));
 
 const server = jsonServer.create();
 const middlewares = jsonServer.defaults();
