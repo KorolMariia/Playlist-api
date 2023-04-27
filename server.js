@@ -2,7 +2,6 @@ const jsonServer = require('json-server');
 const path = require('path');
 const dbJSFile = require(path.join(__dirname, 'data', 'db'));
 
-console.log(dbJSFile())
 const server = jsonServer.create();
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 4000;
