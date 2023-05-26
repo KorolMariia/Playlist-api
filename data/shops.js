@@ -1,4 +1,4 @@
 module.exports = () => {
-  const shops = ['Burgers', 'Sushi', 'Pizza', 'Salateria', 'Meat', 'Vegan', 'Pies', 'Desserts'];
+  const shops = ['Burgers', 'Sushi', 'Pizza', 'Salads', 'Meat', 'Vegan', 'Pies', 'Desserts'];
   return { shops };
 };
